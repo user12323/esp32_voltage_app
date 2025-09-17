@@ -1,0 +1,15 @@
+name: esp32_voltage_app
+description: A Flutter app to read voltage from ESP32 via BLE.
+publish_to: 'none'
+
+environment:
+  sdk: ">=2.18.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_blue_plus: ^1.30.5
+
+flutter:
+  uses-material-design: true
+  
